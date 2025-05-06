@@ -52,6 +52,9 @@ a {
 button:hover{
     cursor: url(img/cursor2.svg), auto;    
 }
+.btn:hover{
+    cursor: url(img/cursor2.svg), auto ;    
+}
 .dropdown-menu {
     background-color: var(--primary-color);
       
@@ -60,6 +63,26 @@ button:hover{
     background-color: var(--primary-color);
     color: var(--quaternary-color);
 }
+/* carrousel */
+.carrouse-exmple{
+  background-color: var(--primary-color);
+}
+.carrousel-inner{
+  max-height: 600px; 
+  object-fit: fill;
+}
+/* productos*/
+
+.card   {
+    align-items: center ;
+    width: 15rem !important;
+    border-radius: 10px;
+    border: solid 2px #8bb9b4;
+    margin: 5px;
+
+    }
+
+
 /* footer */
 footer ul li svg {
     width: 24px;
