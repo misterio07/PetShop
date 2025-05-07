@@ -55,6 +55,13 @@ button:hover{
 .btn:hover{
     cursor: url(img/cursor2.svg), auto ;    
 }
+.boton {
+  background-color:var(--primary-color);
+  color: #f2fbf9;
+}
+.boton:hover {
+  background-color: var(--secondary-color)
+}
 .dropdown-menu {
     background-color: var(--primary-color);
       
