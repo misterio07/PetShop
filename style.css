@@ -75,13 +75,23 @@ button:hover{
 
 .card   {
     align-items: center ;
-    width: 15rem !important;
+    width: 16rem !important;
     border-radius: 10px;
-    border: solid 2px #8bb9b4;
+    border: solid 2px #547772;
     margin: 5px;
 
     }
 
+.destacados{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    border: solid 2px #8bb9b4;
+    margin: auto;
+    padding: 1rem;
+    color: #20655d;
+    max-width: 98% !important;
+    
+}
 
 /* footer */
 footer ul li svg {
