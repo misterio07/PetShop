@@ -1,154 +1,133 @@
-:root{
-    
-    --primary-color: #20655d;
-    --secondary-color: #1d4440;
-    --tertiary-color: #0b2826;
-    
-    --quaternary-color: #ffd700;;
+:root {
+  --primary-color: #20655d;
+  --secondary-color: #1d4440;
+  --tertiary-color: #0b2826;
+
+  --quaternary-color: #ffd700;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  
-  main {
-    flex: 1;
-  }
-body{
-    font-family: "Comic Neue", cursive;
-    background-color: #f2fbf9;
-    font-size: 1em;
-    cursor: url(img/cursor.svg), auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.nav-color{
-    background-color: var(--secondary-color);
-}
-.nav-link{
-    color:#f2fbf9 ;
-}
-.nav-link :hover{
-    color: var(--quaternary-color);
-   
-} 
-.nav-item :hover{
-    color: var(--quaternary-color);
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
+main {
+  flex: 1;
+}
+body {
+  font-family: "Comic Neue", cursive;
+  background-color: #f2fbf9;
+  font-size: 1em;
+  cursor: url(img/cursor.svg), auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav-color {
+  background-color: var(--secondary-color);
+}
+.nav-link {
+  color: #f2fbf9;
+}
+.nav-link :hover {
+  color: var(--quaternary-color);
+}
+.nav-item :hover {
+  color: var(--quaternary-color);
+}
 
 a {
-    transition: color 0.5s ease;
+  transition: color 0.5s ease;
 }
-.nav-item a:hover{
-    cursor: url(img/cursor2.svg), auto;
-    color: var(--quaternary-color) !important;
+.nav-item a:hover {
+  cursor: url(img/cursor2.svg), auto;
+  color: var(--quaternary-color) !important;
 }
 
-button:hover{
-    cursor: url(img/cursor2.svg), auto;    
+button:hover {
+  cursor: url(img/cursor2.svg), auto;
 }
-.btn:hover{
-    cursor: url(img/cursor2.svg), auto ;    
+.btn:hover {
+  cursor: url(img/cursor2.svg), auto;
 }
 .boton {
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   color: #f2fbf9;
 }
 .boton:hover {
-  background-color: var(--secondary-color)
+  background-color: var(--secondary-color);
 }
 .dropdown-menu {
-    background-color: var(--primary-color);
-      
-}
-.dropdown-menu a:hover{
-    background-color: var(--primary-color);
-    color: var(--quaternary-color);
-}
-/* carrousel */
-.carrouse-exmple{
   background-color: var(--primary-color);
 }
-.carrousel-inner{
-  max-height: 600px; 
+.dropdown-menu a:hover {
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+}
+/* carrousel */
+.carrouse-exmple {
+  background-color: var(--primary-color);
+}
+.carrousel-inner {
+  max-height: 600px;
   object-fit: fill;
 }
 /* productos*/
 
-.card   {
-    align-items: center ;
-    width: 16rem !important;
-    border-radius: 10px;
-    border: solid 2px #547772;
-    margin: 5px;
+.card {
+  align-items: center;
+  width: 16rem !important;
+  border-radius: 10px;
+  border: solid 2px #547772;
+  margin: 5px;
+}
 
-    }
-
-.destacados{
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    border: solid 2px #8bb9b4;
-    margin: auto;
-    padding: 1rem;
-    color: #20655d;
-    max-width: 98% !important;
-    
+.destacados {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  border: solid 2px #8bb9b4;
+  margin: auto;
+  padding: 1rem;
+  color: #20655d;
+  max-width: 98% !important;
 }
 
 /* footer */
 footer ul li svg {
-    width: 24px;
-    height: 24px;
-    fill: #f2fbf9;
+  width: 24px;
+  height: 24px;
+  fill: #f2fbf9;
 }
 footer {
-    background-color: var(--primary-color);
-    
-    padding: 12rem 0rem;
-    margin-top: 3rem;
-   
-    
-    
-  }
-  
-  
-  
-  footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  
-  
-  footer ul.d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  
-  
- 
-  
-  
+  background-color: var(--primary-color);
+
+  padding: 12rem 0rem;
+  margin-top: 3rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul.d-flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .facebook:hover svg {
-    fill: #1877f2; /* Azul de Facebook */
-  }
-  
-  /* Estilos para Instagram */
-  .instagram:hover svg {
-    fill: #c13584; /* Morado de Instagram */
-  }
-  
-  /* Estilos para WhatsApp */
-  .whatsapp:hover svg {
-    fill: #25d366; /* Verde de WhatsApp */
-  }
-  
-  
+  fill: #1877f2; /* Azul de Facebook */
+}
+
+/* Estilos para Instagram */
+.instagram:hover svg {
+  fill: #c13584; /* Morado de Instagram */
+}
+
+/* Estilos para WhatsApp */
+.whatsapp:hover svg {
+  fill: #25d366; /* Verde de WhatsApp */
+}
